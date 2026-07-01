@@ -1,24 +1,252 @@
 # UFROMentor
 
-<img width="1032" height="584" alt="image" src="https://github.com/user-attachments/assets/2819223e-b203-4b83-9b48-a7c2fe286e11" />
+> A quick and easy search engine for mentoring — connecting students who need help with peers who can teach it.
 
+**Course:** Diseño de Experiencia de Usuario e Interacción Humano Computador — UXD-HCI 202
+**Department:** Departamento de Cs. Computación e Informática
+**University:** Universidad de La Frontera (UFRO), Temuco, Chile
 
-<img width="1920" height="1080" alt="1" src="https://github.com/user-attachments/assets/9e6a737e-d7e3-424b-ac29-00dbd3c9f297" />
-<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/6f81939a-f727-4980-8593-3901a9f839d2" />
-<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/9364ec1f-b091-48d6-90cd-4393ff6ba8e5" />
+---
 
-<img width="1291" height="486" alt="image" src="https://github.com/user-attachments/assets/2754f26f-89e4-4d96-a2b5-44b4ec96f4d4" />
+## Index
+1. [Introduction](#1-introduction)
+2. [Team & Roles](#2-team--roles)
+3. [Strategy](#3-strategy)
+4. [Scope](#4-scope)
+5. [Structure](#5-structure)
+6. [Skeleton](#6-skeleton)
+7. [Surface](#7-surface)
+8. [Annex](#8-annex)
 
-<img width="1278" height="709" alt="image" src="https://github.com/user-attachments/assets/33f23020-4201-40f8-8863-6caf9be667b0" />
+---
 
-<img width="1174" height="1600" alt="image" src="https://github.com/user-attachments/assets/e094a617-e1ee-4537-90bd-c76cd0d5aa34" />
-<img width="1207" height="1600" alt="image" src="https://github.com/user-attachments/assets/210ff5aa-e96f-4c27-84c6-c66ae37e3b2a" />
+## 1. Introduction
 
-<img width="1172" height="1600" alt="image" src="https://github.com/user-attachments/assets/c7f50b91-6a41-428b-9392-fd50a6aff749" />
-<img width="1191" height="1600" alt="image" src="https://github.com/user-attachments/assets/22974ca7-4b62-4063-b47c-480898c5259c" />
-<img width="1148" height="1600" alt="image" src="https://github.com/user-attachments/assets/923062bc-fd8f-45fe-83fc-c14c6e9dcf2d" />
-<img width="1168" height="1600" alt="image" src="https://github.com/user-attachments/assets/f87ca5a4-8fd6-48a6-a662-3efb9b4e840d" />
+### 1.1. The Problem
+> *"I put up posters at the university offering classes, but they rarely work to attract attention."*
 
+University students who fall behind in their courses struggle to find reliable, accessible help, while students who are strong in a subject have no easy way to offer their knowledge. Research surfaced pain points such as:
+- No centralized, university-focused place to search for a mentor or tutor — students resort to informal channels like posters or word of mouth.
+- Difficulty coordinating schedules and availability between mentor and mentee.
+- No trust/rating system to know if a mentor is actually qualified before booking a session.
 
+### 1.2. Our Solution
+UFROMentor is a mobile-first platform that connects students who need academic support with peers who can mentor them, centered on a search-and-schedule experience built specifically for university course codes.
 
+- **Mentor/Tutor Features:** Create a mentor profile, list available courses, set availability, receive and manage mentorship requests, chat with mentees, and build a rating history.
+- **Student/Mentee Features:** Search and filter mentors by course and availability, request and schedule mentorship sessions, chat with the mentor, track session history, and leave reviews.
 
+---
+
+## 2. Team & Roles
+
+| Name | Role |
+|---|---|---|
+| Maximiliano Rivas Cuevas | Development Lead |
+
+# Honorable mentions
+| Lorenzo López | Ex-Development Lead |
+| Bastian Wenckhans | Ex - Finance Leader |
+
+---
+
+## 3. Strategy
+
+### 3.1. Value Proposition Canvas
+The Value Proposition Canvas was used to map the mentee's jobs-to-be-done (searching for a mentor, coordinating help with assignments, scheduling sessions) against pains (unreliable/informal search methods) and gains (a fast, purpose-built mentoring search engine with a rating system). On the mentor side, the canvas maps the job of finding students to teach.
+
+![Value Proposition Canvas](assets/canvas_valor.png)
+
+### 3.2. UX Personas
+Three personas were derived from user research, representing both sides of the platform (mentee and mentor):
+
+**Persona 1 — Fernanda Cid**
+> *"Hello, I'm Fernanda Cid, a Computer Engineering student. I want to finish my studies as soon as possible to help my family, and to travel during vacations while still studying and learning."*
+- **Demographics:** 24 years old, Female, Computer Engineering student, Labranza, in a relationship.
+- **Key need:** Find tutoring help to catch up on subjects she's falling behind in, since she can't find in-person tutors.
+- **Main frustration:** Fear of not progressing and becoming stuck in her professional career, and not having time to enjoy free time or travel.
+- `![Persona 1].(assets/UX Persona/UX Persona1.png)`
+
+**Persona 2 — Mateo Valenzuela**
+- **Demographics:** 20 years old, Male, Civil Mathematical Engineering student, Villarrica, single. Introverted, analytical, results-driven, stressed under pressure. Interests: music, streaming, playing guitar, traveling.
+- **Key need:** Availability from Tuesday to Friday, a private study environment, and the ability to study in a small group of 3 people.
+- **Main frustration:** It's difficult to find a good tutor, and difficult to study alone.
+- `![Persona 2].(assets/UX Persona/UX Persona2.png)`
+
+**Persona 3 — [Persona Name]**
+> *"I put up posters at the university offering classes, but they rarely work to attract attention."*
+- **Demographics:** 22 years old, Temuco, Civil Computer Engineering.
+- **Key need:** View mentoring requests according to his availability, and a direct communication channel within the platform.
+- **Main frustration:** Traditional promotion methods (posters, word of mouth) don't attract mentees.
+- `![Persona 3](assets/UX Persona/UX Persona3.png)`
+
+### 3.3. Benchmark Analysis
+A competitive benchmark compared UFROMentor against three tutoring/mentoring platforms: **Knack**, **Superprof**, and **Wyzant**.
+
+1. **Tool Selection & Justification**
+
+| # | Tool | Category | Justification |
+|---|---|---|---|
+| 1 | Knack | Institutional B2B (University-led) | [Add justification for inclusion] |
+| 2 | Superprof | High-Volume Global Marketplace | [Add justification for inclusion] |
+| 3 | Wyzant | Professional Academic Quality | [Add justification for inclusion] |
+
+**Benchmark summary (extracted from the comparison matrix):**
+
+| Category | UFROMentor | Knack | Superprof | Wyzant |
+|---|---|---|---|---|
+| Product Strategy | [Define UFROMentor's strategy] | Closed Ecosystem / Institutional B2B (University-led) | High-Volume Global Marketplace | Professional Academic Quality |
+| Service | [Define UFROMentor's service model] | Peer-Driven / Mutual Support | Campus-Integrated / Automated Discovery | High (Vetted & Guaranteed) |
+| Pricing Model | [Define UFROMentor's pricing] | Unintrusive ads / Subsidized (free for students) | Subscription (Monthly Pass) | Transactional (9% Service Fee) |
+| Core Advantage | [Define UFROMentor's differentiator] | Maximum Trust / Course-Code Relevancy | Massive Subject Variety | Professional Expertise |
+
+**Key differentiator:** [Summarize what sets UFROMentor apart — e.g. a course-code-relevant, trust-driven mentoring search built specifically for one university's student body.]
+
+![Benchmark Map](assets/benchmark_capturas.png)
+
+---
+
+## 4. Scope
+
+### 4.1. Functional Requirements
+
+| # | Functionality | Target Persona | Source |
+|---|---|---|---|
+| 1 | Search and filter mentors by course | Persona 1 | Value Proposition Canvas |
+| 2 | Schedule a mentorship session | Persona 2 | Value Proposition Canvas |
+| 3 | Rate and review a mentor after a session | Persona 1 | Benchmark gap (Trust) |
+| 4 | View mentoring requests filtered by availability | Persona 3 | User research |
+| 5 | In-app chat between mentor and mentee | Persona 3 | User research |
+
+### 4.2. Restrictions & Exclusions
+
+| Excluded Feature | Reason | Competitor that has it |
+|---|---|---|
+| Paid/transactional service fees | Keep the platform peer-driven and free for students | Wyzant |
+| Global, cross-university marketplace | Focus scope on a single university's course catalog | Superprof |
+
+### 4.3. Navigation Patterns Adopted from Benchmark
+
+| Pattern | Adopted from | Decision |
+|---|---|---|
+| Course-code-based mentor search | Knack | Accepted — matches student mental model of searching by course |
+| Subject/category browsing | Superprof | Accepted, For time i couldn't implement it |
+
+---
+
+## 5. Structure
+
+### 5.1. Navigation Flow
+
+```
+Login / Sign Up
+└── Dashboard (role-based)
+    ├── Student Dashboard
+    │   ├── Search Mentors
+    │   │   └── Filter by Course / Availability
+    │   ├── Mentorship Requests
+    │   │   ├── Scheduled Sessions
+    │   │   └── Joined Mentorships
+    │   ├── Mentor Profile View
+    │   │   └── Mentorship Chat
+    │   ├── Mentorship History
+    │   │   └── Review Mentorship
+    │   ├── Notifications
+    │   └── Account / Profile Configuration
+    └── Mentor Dashboard
+        ├── Post Management
+        │   └── Post My Tutored Courses
+        ├── Mentorship Requests
+        │   └── Scheduled Sessions
+        ├── Mentorship Chat
+        ├── Mentorship History
+        ├── Notifications
+        └── Account / Profile Configuration
+```
+
+![Navigation Flow Diagram](assets/customer_journey.png)
+
+---
+
+## 6. Skeleton
+
+### 6.1. Low-Fi Wireframes
+
+| Flow | Screens covered |
+|---|---|
+| Onboarding & Auth | [e.g. Splash, Login, Sign Up] |
+| Search & Discovery | [e.g. Search, Filters, Mentor Profile] |
+| Scheduling | [e.g. Availability, Booking Confirmation] |
+| Mentorship Management | [e.g. Requests, Chat, History, Review] |
+
+Six low-fidelity iterations are included in `assets/Lo - Fi/`.
+Low-Fi Wireframes PDF: `[Add link to Low-Fi Wireframes PDF]`
+
+---
+
+## 7. Surface
+
+### 7.1. Interface Evolution (UX Refactoring)
+
+| Screen | Feedback Received | Correction Applied |
+|---|---|---|
+| Search screen | Search was not intuitive; no filter to narrow results | It could not be implemented due to time constraints. |
+| Mentor-Home navbar | Bottom navbar was inconsistent with other screens (missing search icon) | Implemented |
+| Profile | No "Edit Profile" screen existed | It could not be implemented due to time constraints. |
+| Profile | Redundant notification buttons on the profile screen | Removed |
+| General flow | No screen had a back button except Home in the navbar | We implemented it on certain screens. |
+| Payment | Payment history button existed with no associated payment screen | Removed|
+| Sign up | No "log in with existing account" option on the registration screen | Implemented |
+| Background colors | Two screens used `#ffffff` instead of the standard `#f9f9f9` | Fixed |
+
+### 7.2. Heuristic Evaluation
+A heuristic evaluation of the high-fidelity prototype was conducted against Nielsen's 10 usability heuristics by an external review group (Rayen Ancamilla, Eduardo Gomez, and Raul Manriquez), surfacing issues such as missing navigation flow, an unfilterable search screen, and inconsistent navbar/background styling across screens (see table above for the consolidated list).
+
+Heuristic Evaluation PDF: `docs/Evaluación Heurística.pdf`
+
+### 7.3. Accessibility (a11y)
+
+Reference accessibility case study at `docs/Accesibilidad Digital en MercadoLibre.pdf`.
+
+### 7.4. High Definition Interfaces
+- Interactive prototype: `https://www.figma.com/proto/PEbr92N7ZGHOrvoeQMHMn5/UfroMentor?node-id=531-1172&t=cksQyuRoescKOnaO-1`
+
+## 8. Annex
+
+**Strategy Deliverables**
+
+| Deliverable | File Link | Description |
+|---|---|---|
+| Value Proposition Canvas | `assets/canvas_valor.png` | Maps mentee/mentor jobs, pains, and gains |
+| UX Personas | `assets/UX Persona/` | Three personas representing mentees and mentors |
+| Benchmark Map | `assets/benchmark_capturas.png` | Comparison of UFROMentor vs. Knack, Superprof, and Wyzant |
+
+**Scope Deliverables**
+
+| Deliverable | File Link | Description |
+|---|---|---|
+| Functional Requirements | [Add link] | [Description] |
+| Restrictions & Exclusions | [Add link] | [Description] |
+
+**Structure Deliverables**
+
+| Deliverable | File Link | Description |
+|---|---|---|
+| Customer Journey / Navigation Flow | `assets/customer_journey.png` | Screen-to-screen flow for student and mentor roles |
+
+**Skeleton Deliverables**
+
+| Deliverable | File Link | Description |
+|---|---|---|
+| Low-Fi Wireframes | `assets/Lo - Fi/` | Six low-fidelity wireframe iterations |
+
+**Surface Deliverables**
+
+| Deliverable | File Link | Description |
+|---|---|---|
+| Heuristic Evaluation | `docs/Evaluación Heurística.pdf` | External evaluation against Nielsen's 10 heuristics |
+| Accessibility Reference | `docs/Accesibilidad Digital en MercadoLibre.pdf` | Accessibility case study used as design reference |
+| High-Fidelity Prototype | [Add Figma/Adobe XD link] | Final visual design and interactive prototype |
+
+---
+> **UXD-HCI 202 · Departamento de Cs. Computación e Informática · Universidad de La Frontera (UFRO), Temuco, Chile**
