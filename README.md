@@ -41,12 +41,12 @@ UFROMentor is a mobile-first platform that connects students who need academic s
 ## 2. Team & Roles
 
 | Name | Role |
-|---|---|---|
+
 | Maximiliano Rivas Cuevas | Development Lead |
 
 # Honorable mentions
-| Lorenzo López | Ex-Development Lead |
-| Bastian Wenckhans | Ex - Finance Leader |
+-| Lorenzo López | Ex-Development Lead |
+-| Bastian Wenckhans | Ex - Finance Leader |
 
 ---
 
@@ -85,16 +85,16 @@ A competitive benchmark compared UFROMentor against three tutoring/mentoring pla
 
 1. **Tool Selection & Justification**
 
-| # | Tool | Category | Justification |
-|---|---|---|---|
-| 1 | Knack | Institutional B2B (University-led) | [Add justification for inclusion] |
-| 2 | Superprof | High-Volume Global Marketplace | [Add justification for inclusion] |
-| 3 | Wyzant | Professional Academic Quality | [Add justification for inclusion] |
+| # | Tool | Category |
+
+| 1 | Knack | Institutional B2B (University-led) |
+| 2 | Superprof | High-Volume Global Marketplace |
+| 3 | Wyzant | Professional Academic Quality |
 
 **Benchmark summary (extracted from the comparison matrix):**
 
 | Category | UFROMentor | Knack | Superprof | Wyzant |
-|---|---|---|---|---|
+
 | Product Strategy | [Define UFROMentor's strategy] | Closed Ecosystem / Institutional B2B (University-led) | High-Volume Global Marketplace | Professional Academic Quality |
 | Service | [Define UFROMentor's service model] | Peer-Driven / Mutual Support | Campus-Integrated / Automated Discovery | High (Vetted & Guaranteed) |
 | Pricing Model | [Define UFROMentor's pricing] | Unintrusive ads / Subsidized (free for students) | Subscription (Monthly Pass) | Transactional (9% Service Fee) |
@@ -221,29 +221,16 @@ Reference accessibility case study at `docs/Accesibilidad Digital en MercadoLibr
 | UX Personas | `assets/UX Persona/` | Three personas representing mentees and mentors |
 | Benchmark Map | `assets/benchmark_capturas.png` | Comparison of UFROMentor vs. Knack, Superprof, and Wyzant |
 
-**Scope Deliverables**
-
-| Deliverable | File Link | Description |
-|---|---|---|
-| Functional Requirements | [Add link] | [Description] |
-| Restrictions & Exclusions | [Add link] | [Description] |
-
 **Structure Deliverables**
 
-| Deliverable | File Link | Description |
-|---|---|---|
 | Customer Journey / Navigation Flow | `assets/customer_journey.png` | Screen-to-screen flow for student and mentor roles |
 
 **Skeleton Deliverables**
 
-| Deliverable | File Link | Description |
-|---|---|---|
 | Low-Fi Wireframes | `assets/Lo - Fi/` | Six low-fidelity wireframe iterations |
 
 **Surface Deliverables**
 
-| Deliverable | File Link | Description |
-|---|---|---|
 | Heuristic Evaluation | `docs/Evaluación Heurística.pdf` | External evaluation against Nielsen's 10 heuristics |
 | Accessibility Reference | `docs/Accesibilidad Digital en MercadoLibre.pdf` | Accessibility case study used as design reference |
 | High-Fidelity Prototype | [Add Figma/Adobe XD link] | Final visual design and interactive prototype |
